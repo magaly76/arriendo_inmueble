@@ -1,0 +1,70 @@
+[
+    {
+      "model": "web.usuario",
+      "pk": 123456789,
+      "fields": {
+        "nombres": "Ana",
+        "apellido_pat": "Uno",
+        "apellido_mat": "Dos",
+        "direccion": "Calle uno",
+        "telefono": "12344566",
+        "email": "ana.uno@example.com",
+        "id_tipou": 1
+      }
+    },
+    {
+    "model": "web.usuario",
+    "pk": 113334445,
+    "fields": {
+      "nombres": "Lucy",
+      "apellido_pat": "Tres",
+      "apellido_mat": "Cuatro",
+      "direccion": "Calle dos",
+      "telefono": "98765432",
+      "email": "lucy.uno@example.com",
+      "id_tipou": 1
+    }
+  },
+
+  {
+    "model": "web.usuario",
+    "pk": 113336667,
+    "fields": {
+      "nombres": "Luis",
+      "apellido_pat": "Nieve",
+      "apellido_mat": "Cielo",
+      "direccion": "Calle tres",
+      "telefono": "98765654",
+      "email": "luis@example.com",
+      "id_tipou": 2
+    }
+  },
+
+  {
+    "model": "web.usuario",
+    "pk": 113338889,
+    "fields": {
+      "nombres": "Raul",
+      "apellido_pat": "Miau",
+      "apellido_mat": "Guau",
+      "direccion": "Calle cuatro",
+      "telefono": "98760987",
+      "email": "raul@example.com",
+      "id_tipou": 2
+    }
+  },
+
+  {
+    "model": "web.usuario",
+    "pk": 113331112,
+    "fields": {
+      "nombres": "Mia",
+      "apellido_pat": "Sol",
+      "apellido_mat": "Fa",
+      "direccion": "Calle cinco",
+      "telefono": "98761234",
+      "email": "mia@example.com",
+      "id_tipou": 1
+    }
+  }
+]

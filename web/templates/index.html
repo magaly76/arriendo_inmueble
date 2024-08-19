@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal</title>
+</head>
+
+<body>
+    
+    <h1>Lista de comunas</h1>
+    <ul>
+        {% for comuna in comunas %}
+        <li>{{ comuna.nombre }}</li>
+        {% empty %}
+        <li>No hay comunas disponibles.</li>
+        {% endfor %}
+    </ul>
+    
+<!--
+    <h1>Listado de Inmuebles por Comuna</h1>
+    {% for dato in datos %}
+    <h2>Comuna: {{ dato.comuna }}</h2>
+    {% if dato.inmuebles %}
+    <ul>
+        {% for inmueble in dato.inmuebles %}
+        <li>
+            <strong>Nombre:</strong> {{ inmueble.nombre }}<br>
+            <strong>Descripción:</strong> {{ inmueble.descripcion }}
+        </li>
+        {% endfor %}
+    </ul>
+    {% else %}
+    <p>No hay inmuebles disponibles en esta comuna.</p>
+    {% endif %}
+    <hr>
+    {% endfor %}
+    -->
+</body>
+
+</html>
